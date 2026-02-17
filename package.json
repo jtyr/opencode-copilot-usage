@@ -1,0 +1,9 @@
+{
+  "name": "copilot-usage",
+  "version": "1.0.0",
+  "description": "GitHub Copilot usage quota tool for OpenCode",
+  "type": "module",
+  "dependencies": {
+    "@opencode-ai/plugin": "*"
+  }
+}
