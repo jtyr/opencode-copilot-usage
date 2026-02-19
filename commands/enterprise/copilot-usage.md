@@ -1,4 +1,3 @@
-<!-- markdownlint-disable-file MD022 MD041 -->
 ---
 description: Show GitHub Copilot usage quota as formatted text
 model: github-copilot-enterprise/gpt-5-mini
