@@ -56,6 +56,18 @@ Call the copilot-usage tool and display its output as is.
 
 The AI will automatically call the `copilot-usage` tool.
 
+### Automatically in AGENTS.md
+
+You can add the following to your `~/.config/opencode/AGENTS.md` file to display
+the usage at the end of every response:
+
+```markdown
+- When you are using GitHub Copilot models (e.g.
+  `github-copilot-enterprise/claude-sonnet-4.6`), you MUST invoke the internal
+  tool `copilot-usage` using the runtime tool-calling interface and output of
+  tool's verbatim at the end of the response.
+```
+
 ### Direct Tool Invocation
 
 The AI can call the tool directly with custom parameters:
